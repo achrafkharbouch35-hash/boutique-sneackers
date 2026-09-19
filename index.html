@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SOLEX — Sneakers Homme</title>
+  <meta name="description" content="SOLEX — Sneakers homme, nouveautés, éditions limitées et modèles streetwear.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div class="loader">
+    <div class="loader-logo">SOLEX<span>.</span></div>
+    <div class="loader-line">
+      <span></span>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <a href="#" class="logo magnetic">
+      SOLEX<span>.</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#home">Accueil</a>
+      <a href="#shop">Sneakers</a>
+      <a href="#new">Nouveautés</a>
+      <a href="#about">À propos</a>
+      <a href="#instagram">Instagram</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <button class="icon-btn search-open" aria-label="Rechercher">
+        <span>⌕</span>
+      </button>
+
+      <button class="icon-btn cart-open" aria-label="Panier">
+        <span>🛒</span>
+        <b class="cart-count">0</b>
+      </button>
+
+      <button class="menu-btn">
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+
+    <div class="mobile-menu-inner">
+
+      <div class="mobile-menu-top">
+        <span>MENU</span>
+        <button class="mobile-close">×</button>
+      </div>
+
+      <nav>
+        <a href="#home">Accueil <span>01</span></a>
+        <a href="#shop">Sneakers <span>02</span></a>
+        <a href="#new">Nouveautés <span>03</span></a>
+        <a href="#about">À propos <span>04</span></a>
+        <a href="#instagram">Instagram <span>05</span></a>
+      </nav>
+
+      <div class="mobile-bottom">
+        <span>SOLEX®</span>
+        <span>SNEAKERS FOR MEN</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SEARCH -->
+  <div class="search-overlay">
+
+    <button class="search-close">×</button>
+
+    <div class="search-content">
+
+      <span>RECHERCHER</span>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Nike, Air Max, Runner..."
+        autocomplete="off"
+      >
+
+      <div class="search-results" id="searchResults"></div>
+
+    </div>
+
+  </div>
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-noise"></div>
+
+      <div class="hero-content">
+
+        <div class="hero-small reveal">
+          <span></span>
+          NEW SEASON / 2026
+        </div>
+
+        <h1 class="hero-title reveal">
+          STEP<br>
+          <em>YOUR</em><br>
+          GAME.
+        </h1>
+
+        <p class="hero-description reveal">
+          Sneakers homme sélectionnées pour ceux
+          qui avancent avec leur propre style.
+        </p>
+
+        <a href="#shop" class="hero-btn magnetic reveal">
+          <span>SHOP SNEAKERS</span>
+          <i>↗</i>
+        </a>
+
+      </div>
+
+      <div class="hero-image">
+
+        <div class="hero-circle"></div>
+
+        <img
+          src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1200&q=90"
+          alt="Sneaker homme"
+        >
+
+        <div class="hero-floating">
+          <span>01</span>
+          <strong>URBAN<br>ESSENTIAL</strong>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll">
+        <span>SCROLL</span>
+        <div></div>
+      </div>
+
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+
+      <div class="marquee-track">
+
+        <span>MEN'S SNEAKERS</span>
+        <i>✦</i>
+        <span>STREET CULTURE</span>
+        <i>✦</i>
+        <span>NEW DROP</span>
+        <i>✦</i>
+        <span>LIMITED EDITION</span>
+        <i>✦</i>
+
+        <span>MEN'S SNEAKERS</span>
+        <i>✦</i>
+        <span>STREET CULTURE</span>
+        <i>✦</i>
+        <span>NEW DROP</span>
+        <i>✦</i>
+        <span>LIMITED EDITION</span>
+        <i>✦</i>
+
+      </div>
+
+    </div>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">EXPLORE</span>
+        <h2>Find your <em>pair.</em></h2>
+      </div>
+
+      <div class="category-grid">
+
+        <a href="#shop" class="category-card category-large reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=90"
+            alt="Sneakers rouges"
+          >
+
+          <div class="category-overlay"></div>
+
+          <div class="category-info">
+            <span>01</span>
+            <h3>Statement</h3>
+            <p>Des modèles qui attirent les regards.</p>
+            <strong>EXPLORER ↗</strong>
+          </div>
+
+        </a>
+
+        <a href="#shop" class="category-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=90"
+            alt="Sneakers lifestyle"
+          >
+
+          <div class="category-overlay"></div>
+
+          <div class="category-info">
+            <span>02</span>
+            <h3>Daily</h3>
+            <p>Ton essentiel de tous les jours.</p>
+            <strong>EXPLORER ↗</strong>
+          </div>
+
+        </a>
+
+        <a href="#shop" class="category-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1554139125-8f2c4d8d8f50?auto=format&fit=crop&w=900&q=90"
+            alt="Sneakers sport"
+          >
+
+          <div class="category-overlay"></div>
+
+          <div class="category-info">
+            <span>03</span>
+            <h3>Runner</h3>
+            <p>Performance et attitude.</p>
+            <strong>EXPLORER ↗</strong>
+          </div>
+
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- SHOP -->
+    <section class="shop" id="shop">
+
+      <div class="shop-top">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">THE COLLECTION</span>
+          <h2>Latest <em>drops.</em></h2>
+        </div>
+
+        <button class="filter-toggle">
+          FILTER <span>+</span>
+        </button>
+
+      </div>
+
+      <div class="filters">
+
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="new">NEW</button>
+        <button class="filter" data-filter="street">STREET</button>
+        <button class="filter" data-filter="sport">SPORT</button>
+        <button class="filter" data-filter="classic">CLASSIC</button>
+
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <!-- PRODUCT 1 -->
+        <article
+          class="product-card reveal"
+          data-category="new street"
+          data-name="Urban Shadow"
+          data-price="1299"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag">NEW</span>
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=90"
+              alt="Urban Shadow"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">STREET / 01</span>
+              <h3>Urban Shadow</h3>
+            </div>
+
+            <strong>1 299 DH</strong>
+
+          </div>
+
+        </article>
+
+        <!-- PRODUCT 2 -->
+        <article
+          class="product-card reveal"
+          data-category="sport"
+          data-name="Velocity White"
+          data-price="1199"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag">HOT</span>
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=90"
+              alt="Velocity White"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">SPORT / 02</span>
+              <h3>Velocity White</h3>
+            </div>
+
+            <strong>1 199 DH</strong>
+
+          </div>
+
+        </article>
+
+        <!-- PRODUCT 3 -->
+        <article
+          class="product-card reveal"
+          data-category="classic"
+          data-name="Mono Black"
+          data-price="999"
+        >
+
+          <div class="product-image">
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=900&q=90"
+              alt="Mono Black"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">CLASSIC / 03</span>
+              <h3>Mono Black</h3>
+            </div>
+
+            <strong>999 DH</strong>
+
+          </div>
+
+        </article>
+
+        <!-- PRODUCT 4 -->
+        <article
+          class="product-card reveal"
+          data-category="street"
+          data-name="Concrete Runner"
+          data-price="1399"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag">LIMITED</span>
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=90"
+              alt="Concrete Runner"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">STREET / 04</span>
+              <h3>Concrete Runner</h3>
+            </div>
+
+            <strong>1 399 DH</strong>
+
+          </div>
+
+        </article>
+
+        <!-- PRODUCT 5 -->
+        <article
+          class="product-card reveal"
+          data-category="new sport"
+          data-name="Air Motion"
+          data-price="1499"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag">NEW</span>
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=900&q=90"
+              alt="Air Motion"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">SPORT / 05</span>
+              <h3>Air Motion</h3>
+            </div>
+
+            <strong>1 499 DH</strong>
+
+          </div>
+
+        </article>
+
+        <!-- PRODUCT 6 -->
+        <article
+          class="product-card reveal"
+          data-category="street"
+          data-name="Night Force"
+          data-price="1299"
+        >
+
+          <div class="product-image">
+
+            <button class="heart">♡</button>
+
+            <img
+              src="https://images.unsplash.com/photo-1554139125-8f2c4d8d8f50?auto=format&fit=crop&w=900&q=90"
+              alt="Night Force"
+            >
+
+            <button class="quick-view">QUICK VIEW</button>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <span class="product-category">STREET / 06</span>
+              <h3>Night Force</h3>
+            </div>
+
+            <strong>1 299 DH</strong>
+
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="shop-more reveal">
+        <button class="outline-btn" id="loadMore">
+          VIEW ALL SNEAKERS <span>↗</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature" id="new">
+
+      <div class="feature-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1554139125-8f2c4d8d8f50?auto=format&fit=crop&w=1400&q=90"
+          alt="Nouvelle collection"
+        >
+
+      </div>
+
+      <div class="feature-content reveal">
+
+        <span class="eyebrow">THE NEW STANDARD</span>
+
+        <h2>
+          Built for<br>
+          <em>movement.</em>
+        </h2>
+
+        <p>
+          Une nouvelle génération de sneakers pensée pour
+          accompagner ton rythme, de la rue aux moments qui comptent.
+        </p>
+
+        <a href="#shop" class="text-link">
+          DISCOVER THE DROP <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="numbers">
+
+      <div class="number-item reveal">
+        <strong data-number="24">0</strong>
+        <span>HOURS<br>SHIPPING</span>
+      </div>
+
+      <div class="number-item reveal">
+        <strong data-number="100">0</strong>
+        <span>% ORIGINAL<br>PRODUCTS</span>
+      </div>
+
+      <div class="number-item reveal">
+        <strong data-number="365">0</strong>
+        <span>DAYS OF<br>STYLE</span>
+      </div>
+
+      <div class="number-item reveal">
+        <strong>∞</strong>
+        <span>STYLE<br>WITHOUT LIMITS</span>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+      <div class="about-label reveal">
+        SOLEX®
+      </div>
+
+      <div class="about-content reveal">
+
+        <span class="eyebrow">WHO WE ARE</span>
+
+        <h2>
+          More than<br>
+          <em>a sneaker.</em>
+        </h2>
+
+        <p>
+          SOLEX est une sélection de sneakers pour hommes
+          qui mélange culture urbaine, confort et esthétique.
+          Pas besoin de suivre les tendances.
+          Crée la tienne.
+        </p>
+
+        <a href="#shop" class="text-link">
+          SHOP THE COLLECTION <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="instagram" id="instagram">
+
+      <div class="instagram-header reveal">
+
+        <div>
+          <span class="eyebrow">FOLLOW THE MOVEMENT</span>
+          <h2>@solex.<em>official</em></h2>
+        </div>
+
+        <a href="https://instagram.com/" target="_blank" class="outline-btn">
+          FOLLOW US ↗
+        </a>
+
+      </div>
+
+      <div class="instagram-grid">
+
+        <a href="#" class="insta-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=700&q=90"
+            alt="Sneaker Instagram"
+          >
+          <span>↗</span>
+        </a>
+
+        <a href="#" class="insta-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=90"
+            alt="Sneaker Instagram"
+          >
+          <span>↗</span>
+        </a>
+
+        <a href="#" class="insta-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=700&q=90"
+            alt="Sneaker Instagram"
+          >
+          <span>↗</span>
+        </a>
+
+        <a href="#" class="insta-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=700&q=90"
+            alt="Sneaker Instagram"
+          >
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">SOLEX<span>.</span></a>
+
+        <p>
+          Sneakers homme.<br>
+          No rules. Just movement.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <div>
+          <span>SHOP</span>
+          <a href="#shop">Sneakers</a>
+          <a href="#new">Nouveautés</a>
+          <a href="#shop">Best-sellers</a>
+        </div>
+
+        <div>
+          <span>INFO</span>
+          <a href="#about">À propos</a>
+          <a href="#">Livraison</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div>
+          <span>SOCIAL</span>
+          <a href="https://instagram.com/" target="_blank">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">WhatsApp</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>© 2026 SOLEX. ALL RIGHTS RESERVED.</span>
+      <span>SNEAKERS FOR MEN</span>
+
+    </div>
+
+  </footer>
+
+  <!-- QUICK VIEW MODAL -->
+  <div class="modal" id="productModal">
+
+    <div class="modal-bg"></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close">×</button>
+
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="">
+      </div>
+
+      <div class="modal-info">
+
+        <span class="eyebrow">SNEAKER</span>
+
+        <h2 id="modalName">Product</h2>
+
+        <strong id="modalPrice">0 DH</strong>
+
+        <p>
+          Sélectionne ta pointure avant d'ajouter
+          la paire au panier.
+        </p>
+
+        <div class="sizes">
+
+          <span>POINTURE</span>
+
+          <div class="size-grid">
+
+            <button>39</button>
+            <button>40</button>
+            <button>41</button>
+            <button>42</button>
+            <button>43</button>
+            <button>44</button>
+            <button>45</button>
+            <button>46</button>
+
+          </div>
+
+        </div>
+
+        <button class="add-cart-modal">
+          ADD TO CART <span>+</span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- CART -->
+  <div class="cart-overlay"></div>
+
+  <aside class="cart-drawer">
+
+    <div class="cart-header">
+
+      <div>
+        <span>YOUR BAG</span>
+        <strong><span class="cart-count">0</span> ITEMS</strong>
+      </div>
+
+      <button class="cart-close">×</button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+      <div class="empty-cart">
+        <div>🛒</div>
+        <p>Your bag is empty.</p>
+        <button class="continue-shopping">CONTINUE SHOPPING</button>
+      </div>
+
+    </div>
+
+    <div class="cart-bottom">
+
+      <div class="cart-total">
+        <span>TOTAL</span>
+        <strong id="cartTotal">0 DH</strong>
+      </div>
+
+      <button class="whatsapp-order" id="whatsappOrder">
+        ORDER ON WHATSAPP <span>↗</span>
+      </button>
+
+    </div>
+
+  </aside>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
